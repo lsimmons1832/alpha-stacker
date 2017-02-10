@@ -19,6 +19,7 @@ stackLetters(alphabet);
 // Then add logic to stackLetters that places a space after 
 // every third letter. This will require you to do some basic 
 // math in JavaScript, and use an if statement.
+function stackLetters(){
 var addSpace = "";
 for (var i = 0; i < alphabet.length; i++) {
 	if (i % 3 === 0) {
@@ -26,5 +27,6 @@ for (var i = 0; i < alphabet.length; i++) {
 	}
 	addSpace += alphabet[i];
 	console.log(addSpace);
+	}
 }
-
+stackLetters(alphabet);
