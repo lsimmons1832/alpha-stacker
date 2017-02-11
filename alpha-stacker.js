@@ -7,10 +7,12 @@ function stackLetters (theAlphabetArray) {
       Write a `for` loop that iterates over the array argument and
       outputs the letters.
      */
+var output = "";
 for (var i = 0; i < alphabet.length; i++) {
-	console.log(alphabet.slice(0,i));
+	alphabet.slice(0, i);
+	output += alphabet[i];
+	console.log(output);
 	}
-
 }
 
 // Invoke the function and pass in the array
